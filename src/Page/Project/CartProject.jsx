@@ -99,7 +99,7 @@ export default function CartProject() {
           <div className="md:w-2/3 space-y-6 relative">
             {/* img */}
             <img
-              src="/assets/projeck/property-pros.png"
+              src="/assets/projeck/property-pros.webp"
               alt=""
               className="w-full h-32 md:h-60 object-contain "
             />
