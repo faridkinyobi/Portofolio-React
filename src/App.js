@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Headerindex from "./component/Header";
+import LendingPage from "./Page";
+import Footer from "./component/Footer/index"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" from-[#303030] to-[#111316] dark:from-[#F5F5F5] dark:to-[#F8F8FF] bg-gradient-to-t  ">
+      <Headerindex />
+      <div className="custom-container py-24">
+        <LendingPage />
+      </div>
+      <Footer/>
     </div>
   );
 }
