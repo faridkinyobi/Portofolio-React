@@ -106,7 +106,7 @@ export default function CartProject() {
             <div className="flex gap-4 overflow-x-auto justify-center mx-auto ">
               <img
                 src="/assets/icon/next-js.svg"
-                alt=""
+                alt="projek next js"
                 className=" w-10 h-10 md:w-16 md:h-16 bg-white dark:bg-yellow-500  p-1 object-cover rounded-full"
               />
             </div>
