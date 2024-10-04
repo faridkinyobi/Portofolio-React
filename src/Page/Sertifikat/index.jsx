@@ -18,23 +18,34 @@ export default function Sertifikat() {
       >
         Sertifikat
       </motion.h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 m-7">
-        <img
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-3 gap-3 m-7"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+      >
+        <motion.img
           src="/assets/rest-api.png"
           alt="serfikat"
           className="w-full h-52 md:h-80 object-contain "
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
         />
-        <img
+        <motion.img
           src="/assets/problem-solving.png"
           alt="serfikat"
           className="w-full h-52 md:h-80 object-contain"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
         />
-        <img
+        <motion.img
           src="/assets/js-inter.png"
           alt="serfikat"
           className="w-full h-52 md:h-80 object-contain"
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
