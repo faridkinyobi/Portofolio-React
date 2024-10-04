@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 export default function Sertifikat() {
   return (
-    <div className="m-7">
+    <div id="Sertifikat" className="m-7">
       <motion.h2
         initial={{ opacity: 0 }}
         animate={{ scale: 1 }}

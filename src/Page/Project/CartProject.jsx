@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 export default function CartProject() {
   return (
-    <div className="space-y-6 md:space-y-6 md:p-10">
+    <div id="Proyek" className="space-y-6 md:space-y-6 md:p-10">
       {/* top contain */}
       <motion.h2
         initial={{ opacity: 0 }}

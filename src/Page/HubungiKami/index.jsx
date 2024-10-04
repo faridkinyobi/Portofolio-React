@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 export default function HubungiKami() {
   return (
-    <div className="space-y-6 md:space-y-12  md:text-center text-l py-7 md:pb-20">
+    <div id="Tentang" className="space-y-6 md:space-y-12  md:text-center text-l py-7 md:pb-20">
       <motion.h3
         initial={{ opacity: 0 }}
         animate={{ scale: 1 }}

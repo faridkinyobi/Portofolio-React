@@ -64,7 +64,7 @@ const mySkill = [
 ];
 export default function Skill() {
   return (
-    <div className="space-y-6 md:space-y-12 py-10 md:p-10 md:text-center">
+    <div id="Keahlian" className="space-y-6 md:space-y-12 py-10 md:p-10 md:text-center">
       {/* top contain */}
       <motion.h2
         initial={{ opacity: 0 }}
