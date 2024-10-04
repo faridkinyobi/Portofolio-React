@@ -4,7 +4,7 @@ import About from "./About/About";
 import CartProject from "./Project/CartProject";
 import Skill from "./Skill/Skill";
 import HubungiKami from "./HubungiKami";
-
+import Sertifikat from "./Sertifikat";
 export default function LendingPage() {
   return (
     <>
@@ -13,7 +13,8 @@ export default function LendingPage() {
         <About />
         <Skill />
         <CartProject />
-        <HubungiKami/>
+        <Sertifikat />
+        <HubungiKami />
       </div>
     </>
   );
