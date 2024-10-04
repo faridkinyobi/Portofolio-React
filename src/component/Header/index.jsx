@@ -58,7 +58,7 @@ export default function Headerindex() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#Tentang"
                   className="hover:text-neutral-500 transition-all delay-100 md:text-lg"
                 >
                   Tentang
@@ -66,7 +66,7 @@ export default function Headerindex() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#Keahlian"
                   className="hover:text-neutral-500 transition-all delay-100 md:text-lg"
                 >
                   Keahlian
@@ -74,10 +74,18 @@ export default function Headerindex() {
               </li>
               <li>
                 <a
-                  href="/hallo"
+                  href="#Proyek"
                   className="hover:text-neutral-500 transition-all delay-100 md:text-lg"
                 >
                   Proyek
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#Sertifikat"
+                  className="hover:text-neutral-500 transition-all delay-100 md:text-lg"
+                >
+                  Sertifikat
                 </a>
               </li>
             </ul>
