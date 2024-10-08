@@ -100,13 +100,15 @@ export default function CartProject() {
           {/* imag and desc*/}
           <div className="md:w-2/3 space-y-6 relative">
             {/* img */}
-            <motion.img
-              src="/assets/property-pros.webp"
-              alt=""
-              className="w-full h-32 md:h-60 object-contain "
-              whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.3 }}
-            />
+            <a href="https://slicing-real-estate-web-app-with-next-js-14.vercel.app/id">
+              <motion.img
+                src="/assets/property-pros.webp"
+                alt=""
+                className="w-full h-32 md:h-60 object-contain "
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3 }}
+              />
+            </a>
             <div className="flex gap-4 overflow-x-auto justify-center mx-auto ">
               <img
                 src="/assets/icon/next-js.svg"
