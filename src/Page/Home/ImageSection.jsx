@@ -30,19 +30,12 @@ const ImageSection = () => {
         whileInView={{ opacity: 1 }}
         className="relative"
       >
-        <motion.img
-          initial={{ opacity: -10 }}
-          transition={{
-            type: "tween",
-            duration: 0.3,
-            staggerChildren: 0.2,
-          }}
-          whileInView={{ opacity: 1 }}
+        <img
           src="/assets/DSCF3040-removebg-preview.png"
           alt="My image file description"
           width="208"
           height="208"
-          className="w-40 md:w-auto h-auto mx-auto object-contain mt-10 z-10 "
+          className="w-48 md:w-auto h-auto mx-auto object-contain mt-10 z-10 "
           fetchpriority="high"
           sizes="(max-width: 600px) 200px, 50vw"
         />
