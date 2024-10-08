@@ -42,11 +42,11 @@ export default function Headerindex() {
 
           <div
             className={`absolute md:relative left-0 transition-all transform delay-300 ease-in-out  md:top-0 -z-30 rounded-2xl ${
-              SideMenuOpen ? "top-[3.5rem] " : "top-[-15rem]"
-            } bg-[#262626] md:bg-transparent w-full h-42 md:w-auto md:h-auto md:z-50`}
+              SideMenuOpen ? "top-[3.5rem] dark:bg-[#262626] bg-neutral-400 dark:text-neutral-100 text-neutral-900" : "top-[-20rem]"
+            }  dark:md:bg-transparent md:bg-transparent w-full h-42 md:w-auto md:h-auto md:z-50`}
           >
             <ul
-              className={`md:flex gap-6 font-medium space-y-3 md:space-y-0 text-center py-10 md:py-0 dark:text-neutral-900  text-neutral-100`}
+              className={`md:flex gap-6 font-medium space-y-3 md:space-y-0 text-center py-10 md:py-0 md:text-neutral-100 md:dark:text-neutral-900`}
             >
               <li>
                 <a
